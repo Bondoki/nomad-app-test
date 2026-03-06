@@ -1,0 +1,32 @@
+{
+  "template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+  "commit": "89bf9fe1aa0a9a3fe74fd2af5ccc74d5ea974ced",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "full_name": "Ron Dockhorn",
+      "email": "ron.dockhorn@tu-dresden.de",
+      "github_username": "foo",
+      "plugin_name": "app-test-plugin",
+      "module_name": "app_test_plugin",
+      "short_description": "simple test",
+      "version": "0.1.0",
+      "license": "MIT",
+      "include_schema_package": false,
+      "include_normalizer": false,
+      "include_parser": false,
+      "include_app": true,
+      "include_example_uploads": false,
+      "include_action": false,
+      "include_north_tools": false,
+      "north_tool_name": "my_north_tool",
+      "_copy_without_render": [
+        "*.html",
+        "*.png"
+      ],
+      "_template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+      "_commit": "89bf9fe1aa0a9a3fe74fd2af5ccc74d5ea974ced"
+    }
+  },
+  "directory": null
+}
